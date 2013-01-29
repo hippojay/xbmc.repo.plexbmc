@@ -2,7 +2,7 @@
 <addon
   id="xbmc.repo.plexbmc"
   name="PleXBMC Add-ons for XBMC"
-  version="2.0.0"
+  version="2.0.1"
   provider-name="hippojay">
   <requires>
     <import addon="xbmc.addon" version="12.0.0"/>
@@ -15,10 +15,9 @@
     <hashes>true</hashes>
   </extension>
   <extension point="xbmc.addon.metadata">
-    <summary lang="en">Install Add-ons from queeup's repository</summary>
-    <summary lang="tr">queeup'un deposundan eklentileri indirin</summary>
-    <description lang="en">Download and install add-ons from the unofficial queeup's addon repository.</description>
-    <disclaimer lang="en">I do not host any of the online video, audio, and photo files that some of the addons link to stored on third-party websites, nor do they upload such files themselves. They are not responsible for what other people upload to any third-party sites. Therefore we urge all copyright owners, to recognize that the links contained within these addons are located somewhere else on the web. The scraped embedded links point to the location of each video on the web. Please direct all copyright infringement issues to the companies that host these files :- Google, Dailymotion, Veoh, and so forth.</disclaimer>
+    <summary lang="en">Install Add-ons for PleXBMC</summary>
+    <description lang="en">Install addons to enhance the Plex + XBMC relationship.  Cosy....</description>
+    <disclaimer lang="en"></disclaimer>
     <platform>all</platform>
     <nofanart>true</nofanart>
   </extension>
