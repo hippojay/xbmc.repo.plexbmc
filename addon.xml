@@ -2,16 +2,16 @@
 <addon
   id="xbmc.repo.plexbmc"
   name="PleXBMC Add-ons for XBMC"
-  version="2.0.1"
+  version="2.0.2"
   provider-name="hippojay">
   <requires>
     <import addon="xbmc.addon" version="12.0.0"/>
   </requires>
   <extension point="xbmc.addon.repository"
-             name="Unofficial PlexBMC's Add-on Repository">
-    <info compressed="true">http://github.com/hippojay/repository.plexbmc.addons/raw/frodo/addons.xml</info>
-    <checksum>http://github.com/hippojay/repository.plexbmc.addons/raw/frodo/addons.xml.md5</checksum>
-    <datadir zip="true">http://github.com/hippojay/repository.plexbmc.addons/raw/frodo/download</datadir>
+             name="PlexBMC Add-on Repository">
+    <info compressed="true">http://repository-plexbmc-addons.googlecode.com/git-history/frodo/addons.xml</info>
+    <checksum>http://repository-plexbmc-addons.googlecode.com/git-history/frodo/addons.xml.md5</checksum>
+    <datadir zip="true">http://repository-plexbmc-addons.googlecode.com/git-history/frodo/download</datadir>
     <hashes>true</hashes>
   </extension>
   <extension point="xbmc.addon.metadata">
